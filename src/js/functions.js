@@ -42,7 +42,7 @@ $(window).resize(function () {
 function timeElapse(date) {
   var current = Date();
   var seconds =
-    (Date.parse(current) - Date.parse("06 Jun 2022 10:29:00 GMT+0700")) / 1000;
+    (Date.parse(current) - Date.parse("06 Jun 2022 08:35:00 GMT+0700")) / 1000;
   var days = Math.floor(seconds / (3600 * 24));
   console.log(seconds);
   console.log(current);
